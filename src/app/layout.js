@@ -23,14 +23,6 @@ export default function RootLayout({ children }) {
           href="https://cdn.lineicons.com/4.0/lineicons.css"
           rel="stylesheet"
         ></link>
-        <link
-          rel="stylesheet"
-          href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
-        />
-        <link
-          rel="stylesheet"
-          href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css"
-        />
       </head>
       <body>{children}</body>
     </html>
